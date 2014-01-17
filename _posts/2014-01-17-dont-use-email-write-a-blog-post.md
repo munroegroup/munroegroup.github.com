@@ -26,8 +26,8 @@ collection, often taking much longer than one would expect
 still contains up to date information? They don't. Best case is that another
 email was sent as a follow up at some point that has updated information, and
 probably another one later. Chances are, the group of these emails has only
-succeeded in confusing the recipients rather than being of help, so that reply
-to the initial sender and ask for new, clearing instructions that replace
+succeeded in confusing the recipients rather than being of help, so they reply
+to the initial sender and ask for new, clearer instructions that replace
 anything sent previously. An endless loop occurs, continuing to negatively
 impact the directions being handed around.
 
@@ -35,11 +35,13 @@ The Easy Fix is to Document the Details on a Web Page
 -----------------------------------------------------
 The next time you need to send information in email, think first if anyone else
 could benefit from that information in the future who may not have asked for it
-at the current time. If there is, document that information on a web page. If it
-is a personal project you are sharing with friends that does not require
+at the current time. If there is, document that information on a web page. 
+
+If it is a personal project you are sharing with friends that does not require
 privacy, information on an open source project, or maybe just a food recipe,
 find any easy location on the internet to create a blog and document that
-information within the blog of blogs that can easily be created, and for free.
+information within a blog. A blog can easily be created, and for free.
+
 If it is work information, create a document on the company intranet, your
 company has one of those, right? If they don't take it upon yourself to set up a
 wiki internally or ask your IT department to help set one up.

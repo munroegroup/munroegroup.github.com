@@ -8,21 +8,22 @@ tags: []
 At work today, a colleague emailed our team asking for feedback on how to
 refresh a caching system that we have in place for one of our products.
 Typically, one of us responds with an email containing detailed directions. This
-leads to a large issue. . .
+leads to an issue...
 
 Emails Do Not Scale as Well as Information on a Web Page
 --------------------------------------------------------
-When you create and email with detailed directions on completing a task, that
+When you create an email with detailed directions on completing a task, that
 email will make its way to the recipient or group of recipients on the mailing
 list. You could argue that the email can be forwarded or archived for future
 retrieval and potentially forwarded along to a new group. 
 
-This raises a few issues:
-* the user or users that initially received the email or the sender needs to
-  successfully search through and find the email within their archive
+But, this raises a few problems:
+
+-  the user or users that initially received the email or the sender needs to
+successfully search through and find the email within their archive
 collection, often taking much longer than one would expect
-* If and when the email has been retrieved, how does anyone know if that email
-  still contains up to date information? They don't. Best case is that another
+-  If and when the email has been retrieved, how does anyone know if that email
+still contains up to date information? They don't. Best case is that another
 email was sent as a follow up at some point that has updated information, and
 probably another one later. Chances are, the group of these emails has only
 succeeded in confusing the recipients rather than being of help, so that reply

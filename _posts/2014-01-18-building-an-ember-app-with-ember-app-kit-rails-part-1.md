@@ -31,11 +31,6 @@ Open up Gemfile in your editor of choice. Add the following:
 gem 'ember-appkit-rails'
 ```
 
-Run bundler
-```ruby
-bundle install
-```
-
 Bootstrap ember
 ```ruby
 rails g ember:bootstrap

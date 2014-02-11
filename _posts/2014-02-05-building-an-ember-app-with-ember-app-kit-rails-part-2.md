@@ -15,9 +15,9 @@ on Rails page.
 Before doing anything else, let's replace the default index page being served up
 be our project,
 
-```
-rails g ember:template application
-```
+{% highlight ruby %}
+  rails g ember:template application
+{% endhighlight %}
 
 If you refresh your homepage in the browser, you should now see an empty page.
 
@@ -31,20 +31,21 @@ very similar task, with a little dash of something extra, ```--ember```.
 
 Let's go ahead and create the books resource,
 
-```
-rails g scaffold books title:string author:string url:string --ember
-rake db:migrate
-```
+{% highlight ruby %}
+  rails g scaffold books title:string author:string url:string --ember
+  rake db:migrate
+{% endhighlight %}
 
 Let's update the application template file, so that we see something when
-navigating to the homepage. 
-```
-app/templates/application.hbs
+navigating to the homepage.
 
-<h1>Welcome to Books</h1>
-{{link-to 'Books' 'books'}}
-{{outlet}}
-```
+{% highlight ruby %}
+  app/templates/application.hbs
+
+  <h1>Welcome to Books</h1>
+  {% raw %}{{link-to 'Books' 'books'}}{% endraw %}
+  {% raw %}{{outlet}}{% endraw %}
+{% endhighlight %}
 
 Refresh your local page within the browser.
 ![books header]({{ HOME_PATH }}/assets/images/books_home.png)

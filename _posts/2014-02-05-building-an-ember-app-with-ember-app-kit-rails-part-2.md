@@ -26,7 +26,7 @@ If you refresh your homepage in the browser, you should now see an empty page.
 Let's start moving things along and get some real work done in creating our
 books application. Initially, I'm thinking each book will be represented by a
 title, author, and a link to Amazon for the book. In a standard Rails project, I
-might create a books resource at this time to kick things off. With EAKR, it's a
+might create a books resource to kick things off. With EAKR, it's a
 very similar task, with a little dash of something extra, ```--ember```. 
 
 Let's go ahead and create the books resource,
@@ -48,9 +48,11 @@ navigating to the homepage.
 {% endhighlight %}
 
 Refresh your local page within the browser.
+
 ![books header]({{ HOME_PATH }}/assets/images/books_home.png)
 
 Click the 'Books' link and add a new book.
+
 ![books one]({{ HOME_PATH }}/assets/images/book_one.png)
 
 In Part 3, we will continue to evolve our books application.

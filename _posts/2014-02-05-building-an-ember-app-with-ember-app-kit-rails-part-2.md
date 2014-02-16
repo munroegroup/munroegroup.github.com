@@ -12,11 +12,11 @@ on Rails page.
 
 ![eakr index page]({{ HOME_PATH }}/assets/images/default_page.png)
 
-Before doing anything else, let's replace the default index page being served up
-be our project,
+Before doing anything else, let's replace the default index page being served up by adding application and index templates to our application,
 
 {% highlight ruby %}
   rails g ember:template application
+  rails g ember:template index
 {% endhighlight %}
 
 If you refresh your homepage in the browser, you should now see an empty page.
@@ -27,7 +27,7 @@ Let's start moving things along and get some real work done in creating our
 books application. Initially, I'm thinking each book will be represented by a
 title, author, and a link to Amazon for the book. In a standard Rails project, I
 might create a books resource to kick things off. With EAKR, it's a
-very similar task, with a little dash of something extra, ```--ember```. 
+very similar task, with a little dash of something extra, ```--ember```.
 
 Let's go ahead and create the books resource,
 
@@ -43,6 +43,7 @@ navigating to the homepage.
   app/templates/application.hbs
 
   <h1>Welcome to Books</h1>
+  {% raw %}{{link-to 'Home' 'index'}}{% endraw %}
   {% raw %}{{link-to 'Books' 'books'}}{% endraw %}
   {% raw %}{{outlet}}{% endraw %}
 {% endhighlight %}

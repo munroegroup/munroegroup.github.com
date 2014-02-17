@@ -86,5 +86,5 @@ The homepage should now look similar to,
 
 ![books index page]({{ HOME_PATH }}/assets/images/books_index.png)
 
-
+In part 4, we will adjust the UI to put some polish on the look and feel of our app.
 {% include JB/setup %}

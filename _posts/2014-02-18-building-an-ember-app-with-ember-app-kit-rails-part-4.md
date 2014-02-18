@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building an Ember app with Ember Appkit Rails - Part 4 - Conclusion"
+title: "Building an Ember app with Ember Appkit Rails - Part 4 Conclusion"
 description: ""
 category: ""
 tags: []
@@ -8,6 +8,8 @@ tags: []
 This is the conclusion to a 4 part series on creating a simple Ember application using [Ember Appkit Rails](https://github.com/dockyard/ember-appkit-rails)
 
 In [part3](http://blog.munroegroupsolutions.com/2014/02/17/building-an-ember-app-with-ember-app-kit-rails-part-3/), we set our application home page to render the books' resource index.
+
+You can find the source code for this app at [Github](https://github.com/mikepmunroe/books-EAKR).
 
 To finish off our app, let's clean up some of UI for a more polished look.
 

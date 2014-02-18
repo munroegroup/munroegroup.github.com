@@ -10,6 +10,8 @@ In [part
 we got the most basic task accomplished, loading the interactive default Ember
 on Rails page.
 
+You can find the source code for this app at [Github](https://github.com/mikepmunroe/books-EAKR).
+
 ![eakr index page]({{ HOME_PATH }}/assets/images/default_page.png)
 
 Before doing anything else, let's replace the default index page being served up by adding application and index templates to our application,

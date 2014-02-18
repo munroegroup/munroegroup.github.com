@@ -7,6 +7,8 @@ tags: []
 ---
 In [part2](http://blog.munroegroupsolutions.com/2014/02/05/building-an-ember-app-with-ember-app-kit-rails-part-2/), we added a books resource to our books application and showed that the resource was working by typing in the title, author and Amazon URL for a sample book.
 
+You can find the source code for this app at [Github](https://github.com/mikepmunroe/books-EAKR).
+
 Before we move any further in building out our app, let's add some
 style using a CSS framework. Most apps built for show and tell type purposes
 these days are typically built with [bootstrap](http://getbootstrap.com/), but I recently saw a blog post on the use of
@@ -27,13 +29,13 @@ During the ```rails g foundation:install``` step, you will probably be prompted
 to overwrite your ```application.html.erb file```. Allow the overwrite to occur. After the foundation install completes, let's change the default title back to ```Books```.
 
 Change,
-{% highlight ruby %}
+{% highlight html %}
   <title>
     <%= content_for?(:title) ? yield(:title) : "foundation-rails" %>
   </title>
 {% endhighlight %}
 to
-{% highlight ruby %}
+{% highlight html %}
   <title>
     <%= content_for?(:title) ? yield(:title) : "books" %>
   </title>

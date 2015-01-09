@@ -13,9 +13,9 @@ title : The Munroe Group
 tagline: Thoughts on Ember, Rails, and software.
 author :
   name : Mike Munroe
-  email : mike@munroegroupsolutions.com
+  email : mike@greenfieldhq.com
   github : mikepmunroe
-  twitter : munroegroup
+  twitter : mikepmunroe
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
